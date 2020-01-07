@@ -8,3 +8,4 @@ C:\Users\Aytac Malkoc\Desktop\C-Sharp-Matris\obj\Debug\netcoreapp3.1\C-Sharp-Mat
 C:\Users\Aytac Malkoc\Desktop\C-Sharp-Matris\obj\Debug\netcoreapp3.1\C-Sharp-Matris.AssemblyInfo.cs
 C:\Users\Aytac Malkoc\Desktop\C-Sharp-Matris\obj\Debug\netcoreapp3.1\C-Sharp-Matris.dll
 C:\Users\Aytac Malkoc\Desktop\C-Sharp-Matris\obj\Debug\netcoreapp3.1\C-Sharp-Matris.pdb
+C:\Users\Aytac Malkoc\Desktop\C-Sharp-Matris\obj\Debug\netcoreapp3.1\C-Sharp-Matris.csprojAssemblyReference.cache

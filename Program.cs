@@ -8,7 +8,6 @@ namespace C_Sharp_Matris
         {
             int[,] dizi = new int[3, 3];
             int det = 0;
-            int toplam = 0;
 
             for (int i = 0; i < 3; i++)
             {
@@ -25,7 +24,7 @@ namespace C_Sharp_Matris
             {
                 for (int j = 0; j < 3; j++)
                     Console.Write(" {0} ", dizi[i, j]);
-                Console.WriteLine();
+                    Console.WriteLine();
             }
             Console.WriteLine();
 
@@ -34,7 +33,7 @@ namespace C_Sharp_Matris
             {
                 for (int m = 0; m < 3; m++)
                     Console.Write(" {0} ", dizi[m, k]);
-                Console.WriteLine();
+                    Console.WriteLine();
             }
             Console.WriteLine();
 
