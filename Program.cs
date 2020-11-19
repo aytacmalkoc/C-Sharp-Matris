@@ -1,5 +1,6 @@
 ﻿using System;
 
+// Don't forget to replace the namespace field with your own app!
 namespace C_Sharp_Matris
 {
     class Program
