@@ -1,0 +1,9 @@
+.vs
+/Backup
+/bin
+/obj
+
+.gitattributes
+.csproj
+.sln
+.htm
