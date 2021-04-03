@@ -1,48 +1,26 @@
 ﻿using System;
 
-// Don't forget to replace the namespace field with your own app!
-namespace C_Sharp_Matris
+namespace Matrix_Determinant
 {
     class Program
     {
-        static void setColorGreen()
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-        }
-
-        static void resetColor()
-        {
-            Console.ResetColor();
-        }
-
         static void Main(string[] args)
         {
             int[,] dizi = new int[3, 3];
             int det = 0;
 
-            Console.Title = "C# Matris Generator v1.0";
-
-            setColorGreen();
-            Console.WriteLine("   ---------------------------------   ");
-            Console.Write("--- Welcome to matris generator v1.0 ---\n");
-            Console.WriteLine("   ---------------------------------   \n");
-            Console.WriteLine("@author: Aytac Malkoc - <iletisim@aytacmalkoc.com.tr>\n");
-
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    resetColor();
                     Console.Write("value of ");
-                    setColorGreen();
                     Console.Write("[{0}],[{1}]: ", i, j);
-                    resetColor();
                     dizi[i, j] = int.Parse(Console.ReadLine());
                 }
             }
             Console.WriteLine();
 
-            Console.WriteLine("Generated Matris: \n");
+            Console.WriteLine("Generated Matrix: \n");
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
